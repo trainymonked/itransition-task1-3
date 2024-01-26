@@ -1,0 +1,1 @@
+[,,...x]=process.argv,g=y='';if(x.length){y=x[0],l=x.length,e=y.length;for(i=0;i<e;i++)for(j=i+1;j<=e;j){for(p=y.substr(i,j++-i),k=1;k<l&&x[k].includes(p);k++);if(k==l&&g.length<p.length)g=p}y=g}console.log(y)
